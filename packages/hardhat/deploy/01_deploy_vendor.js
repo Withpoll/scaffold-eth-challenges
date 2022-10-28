@@ -19,7 +19,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
   
   const vendor = await ethers.getContract("Vendor", deployer);
 
-  Todo: transfer the tokens to the vendor
+  // Todo: transfer the tokens to the vendor
   console.log("\n 🏵  Sending all 1000 tokens to the vendor...\n");
   
   const transferTransaction = await yourToken.transfer(
